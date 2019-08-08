@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Exemplo { 
+
+ public static void main(String[] args) {
+
+String nome;
+
+Scanner entrada = new Scanner(args);
+
+System.out.println("Informe Seu Nome");
+nome = entrada.nextLine();
+
+System.out.println("Seu Nome" + nome);
+
+System.out.println("Seu sobreNome" + nome);
+String sobreNome = entrada.nextLine();
+System.out.println("Seu Nome Completo é" + nome + " " + sobreNome);
+  
+  }
+ 
+} 
