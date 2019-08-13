@@ -1,0 +1,15 @@
+package Aula01;
+
+public class Aula01 {
+	
+	public static void main(String[] args) {
+	
+		float numero1 = 10f;
+		float numero2 = 5.2f;
+		float soma,media;
+		
+		soma=numero1+numero2;
+		media = soma/2;
+		//media = (numero1+numero2)/2;
+		System.out.println("Soma é: "+soma+". E a média é: "+media);
+	}}
